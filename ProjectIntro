@@ -1,0 +1,33 @@
+• Problem statement - describe the problem that your project is trying to solve
+
+o As Venezuelans, in the past years, we have had to go through horrible stints to
+renew our passports, whether that be back home or abroad. 
+As both of our group members were trying to renew our passports, we sat down to talk about the problems behind the delays and complications faced when renewing.
+One of the problems was the database they used which made it hard to stay organized and was confusing to use for both parties (administrators and users).
+
+• Solution statement - describe the solution you implemented to solve the problem
+
+o These problems lead us towards recreating the database, fixing the redundancies
+in their data while making it neater and simpler for the administrators to work with. We realized that the previous database kept track of a lot of unnecessary 
+information and had someone manually deciding the appointment date so, we optimized it and changed it in a way we thought would improve the process. 
+These changes will allow for the picking of appointments to be faster and clearer for the users while also empowering the government to be more organized 
+and efficient, lowering wait times and complications as a whole.
+
+• User - describe the typical user(s) that would use your solution
+
+o The typical user of our database would be any citizen looking to renew their
+passports. This database could be implemented in all countries with small tweaks, making the typical user anyone looking to renew a passport rather than just 
+Venezuelan citizens.
+
+• Domain objects - describe at least two of the domain objects you implemented in your solution
+
+o One of the domain objects that we implemented was the shipping address schema. This schema keeps track of the address the users want their passports shipped to. 
+The implementation of this schema was done to lower congestions in the government centers. Before this, you had lines of people going to fetch their passports 
+which, slowed down the renovation process since the personnel had to stop taking care of renewals and give the printed passports out. Apart from that, this will
+allow citizens to lose less time in such an event since they will only need to go to the actual appointment rather than go to the consultation and to pick up 
+the passports (which is the case right now in Venezuela leading to 12 hour wait times). Even though this solution is simple, it gives back time to everyone. 
+Another domain object we implemented was the passport schema. This is a schema that holds all the useful information of each passport, such as the expiration date, 
+to make sure that the user needs to renew or not, and the passport type, to see what classification of renewal you need. By keeping track
+of this information, we can automate the process so that the database gives appointments to those who actually need to renew (those whose passports expire in 
+less than six months) and has all the information the system needs for the consultation. This will lead to faster runtimes due to the removal of all redundancies
+from the database which also ends up creating more storage space.
